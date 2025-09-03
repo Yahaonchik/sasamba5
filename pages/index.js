@@ -123,6 +123,12 @@ const Frame1196 = (props) => {
             </h1>
             <OrderButton onClick={openModal} variant="primary" />
           </div>
+          <Head>
+            <link rel="preload" as="image" href="/problems 2/11-300h.webp" media="(max-width: 767px)" type="image/webp" />
+            <link rel="preload" as="image" href="/problems 2/21-300h.webp" media="(max-width: 767px)" type="image/webp" />
+            <link rel="preload" as="image" href="/problems 2/31-300h.webp" media="(max-width: 767px)" type="image/webp" />
+            <link rel="preload" as="image" href="/problems/4-300h.webp" media="(max-width: 767px)" type="image/webp" />
+          </Head>
           <article className="frame1196-cards">
             <Link legacyBehavior href="/neslivaetvodu">
               <a className="frame1196-container113">
@@ -142,9 +148,9 @@ const Frame1196 = (props) => {
                     ></path>
                   </svg>
                 </div>
-                <div className="frame1196-image15">{typeof window === 'undefined' ? null : (window.innerWidth > 991 && (
-                  <Image alt="Стиральная ��ашина не сливает воду" src="/problems 2/11-300h.webp" fill sizes="149px" quality={60} style={{ objectFit: 'cover' }} />
-                ))}</div>
+                <div className="frame1196-image15">
+                  <Image alt="Стиральная ��ашина не сливает воду" src="/problems 2/11-300h.webp" fill sizes="149px" quality={60} style={{ objectFit: 'cover' }} priority={isMobile} fetchPriority={isMobile ? 'high' : undefined} />
+                </div>
               </a>
             </Link>
             <Link legacyBehavior href="/negreetvodu">
@@ -165,7 +171,7 @@ const Frame1196 = (props) => {
                     ></path>
                   </svg>
                 </div>
-                <div className="frame1196-image16"><Image alt="Ст��ральная машина не нагревает воду" src="/problems 2/21-300h.webp" fill sizes="149px" quality={60} loading="lazy" style={{ objectFit: 'cover' }} /></div>
+                <div className="frame1196-image16"><Image alt="Ст��ральная машина не нагревает воду" src="/problems 2/21-300h.webp" fill sizes="149px" quality={60} loading="lazy" style={{ objectFit: 'cover' }} priority={isMobile} fetchPriority={isMobile ? 'high' : undefined} /></div>
               </a>
             </Link>
             <Link legacyBehavior href="/protekaet">
@@ -184,7 +190,7 @@ const Frame1196 = (props) => {
                     ></path>
                   </svg>
                 </div>
-                <div className="frame1196-image17"><Image alt="Ст���ральная машина протекает" src="/problems 2/31-300h.webp" fill sizes="149px" quality={60} loading="lazy" style={{ objectFit: 'cover' }} /></div>
+                <div className="frame1196-image17"><Image alt="Ст���ральная машина протекает" src="/problems 2/31-300h.webp" fill sizes="149px" quality={60} loading="lazy" style={{ objectFit: 'cover' }} priority={isMobile} fetchPriority={isMobile ? 'high' : undefined} /></div>
               </a>
             </Link>
             <Link legacyBehavior href="/silnoshumit">
@@ -200,12 +206,12 @@ const Frame1196 = (props) => {
                     className="frame1196-icon114"
                   >
                     <path
-                      d="m18 6l-1.43 1.393L24.15 15H4v2h20.15l-7.58 7.573L18 26l10-10z"
+                      d="m18 6l-1.43 1.393L24.15 15H4v2h20.15l-7.58 7.573L18 26l10-10з"
                       fill="currentColor"
                     ></path>
                   </svg>
                 </div>
-                <div className="frame1196-image18"><Image alt="��тиральн��я машина шумит при отжиме" src="/problems/4-300h.webp" fill sizes="149px" quality={60} loading="lazy" style={{ objectFit: 'cover' }} /></div>
+                <div className="frame1196-image18"><Image alt="��тиральн��я машина шумит при отжиме" src="/problems/4-300h.webp" fill sizes="149px" quality={60} loading="lazy" style={{ objectFit: 'cover' }} priority={isMobile} fetchPriority={isMobile ? 'high' : undefined} /></div>
               </a>
             </Link>
             <Link legacyBehavior href="/nevkluchaetsa">
@@ -882,7 +888,7 @@ const Frame1196 = (props) => {
               text3={
                 <Fragment>
                   <span className="frame1196-text166">
-                    <span>Вызвать мастера</span>
+                    <span>Вызв��ть мастера</span>
                   </span>
                 </Fragment>
               }
@@ -1513,7 +1519,7 @@ const Frame1196 = (props) => {
               </div>
               <div className="item">
                 <Image
-                  alt="Ремон�� ст��ральных машин Ardo в Одессе - профссиональный сервис"
+                  alt="Ремон�� ст��ральных машин Ardo в Одессе - профссиональный серв��с"
                   src="/brands/image%203823123-200h.webp"
                   loading="eager"
                   className="frame1196-image38"
@@ -1704,7 +1710,7 @@ const Frame1196 = (props) => {
               <div className="frame1196-container159">
                 <h3 className="frame1196-text216">
                   <span>
-                    Теперь продать с��иральную машину в Одессе -{' '}
+                    Теперь продать с��иральную маш��ну в Одессе -{' '}
                     <span style={{ color: '#FFD84D', fontWeight: 700 }}>это не сложно</span>
                     <span style={{ color: '#FFD84D' }}>!</span>
                   </span>
@@ -2395,7 +2401,7 @@ const Frame1196 = (props) => {
                     <h3 className="frame1196-text224">
                       <span
                         dangerouslySetInnerHTML={{
-                          __html: 'Луччшие мастера с многолетним стажем 7-10 лет',
+                          __html: 'Лучч��ие мастера с многолетним стажем 7-10 лет',
                         }}
                       ></span>
                     </h3>
@@ -3367,7 +3373,7 @@ const Frame1196 = (props) => {
             <span>Стира��ьная машина — ��ехника, которая должна работать исправно: отжимать, стирать и радовать стабильностью. Но на практике даже самая надёжная техника со времене�� тре��ует внимания. Механические детали изнашиваются, электроник�� даёт сбои, а бытовая на��рузка делает своё дело. Поэтому ремонт стиральн��х ма��ин в Одессе — не разовая услуга, а реа��ьная необходимость для многих владельцев. Важно доверить ремонт проверен��ым спе��иалистам, а не случайному мастеру.</span>
           </p>
           <p className="frame1196-text252 textITOGI">
-            <span>Под брендом "Ваше назван��е" работает команда мастеров, каждый из которых занимается ремонтом стирал��ных м��шин более с��ми лет. Мы обучались у лучших, прошли сертификацию, посещали техку��сы и накопили опыт р��боты с техникой разных поколений. ��егодня мы предлаг��ем ремонт стиральных машин в Одессе с гарантией, использованием оригинальных запчастей и вним��нием к ��аждой детали. В нашем распоряжении — профессио����ально оснащённая мастерская, склад комплекту��щих и выездной сервис. Мы находим даже редкие детали и точно знаем, как продлить жизнь вашей технике.</span>
+            <span>Под брендом "Ваше назван��е" работает команда мастеров, каждый из которых занимается ремонтом стирал��ных м��шин более ����ми лет. Мы обучались у лучших, прошли сертификацию, посещали техку��сы и накопили опыт р��боты с техникой разных поколений. ��егодня мы предлаг��ем ремонт стиральных машин в Одессе с гарантией, использованием оригинальных запчастей и вним��нием к ��аждой детали. В нашем распоряжении — профессио����ально оснащённая мастерская, склад комплекту��щих и выездной сервис. Мы находим даже редкие детали и точно знаем, как продлить жизнь вашей технике.</span>
           </p>
           <h2 className="textglavitogi">
             <span>Почему выбирают нас</span>
@@ -11471,7 +11477,7 @@ const Frame1196 = (props) => {
             box-shadow: 0px 4px 15px 0px rgba(175, 160, 115, 0.4);
           }
 
-          /* Ан��мация ��азворачи����������ия и�� центр�� для ответов FAQ */
+          /* Ан��мация ��азворачи����������ия и�� центр��� для ответов FAQ */
           .frame1196-otvet1,
           .frame1196-otvet2,
           .frame1196-otvet3,
@@ -11505,7 +11511,7 @@ const Frame1196 = (props) => {
           }
 
 
-          /* Ли����йная ан��м��ция д�����я ико����к */
+          /* Ли����йная ан��м��ция д�����я ико�����к */
           .frame1196-icon338,
           .frame1196-icon340,
           .frame1196-icon342,
@@ -11556,7 +11562,7 @@ const Frame1196 = (props) => {
             fill: #4EC8ED !important;
           }
 
-          /* Стили ��ля к��икабельных кнопок */
+          /* С��или ��ля к��икабельных кнопок */
           .clickable-button {
             cursor: pointer !important;
             transition: all 0.2s ease !important;
