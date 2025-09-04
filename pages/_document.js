@@ -7,6 +7,9 @@ class CustomDocument extends Document {
         <Head>
           <link rel="preload" as="image" href="/to%20the%20backgrouund-1500w.png" media="(min-width: 992px)" />
           <link rel="preload" as="image" href="/all%20ina%20dast%20or%20dust.webp" />
+          <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
+          <link rel="stylesheet" href="/styles.css" />
+          <script defer src="/script.js"></script>
           <meta charSet="utf-8"></meta>
           <meta property="twitter:card" content="summary_large_image"></meta>
           <style
